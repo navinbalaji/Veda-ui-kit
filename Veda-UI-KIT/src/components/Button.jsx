@@ -6,7 +6,7 @@ import classNames from "classnames";
  * @param {"primary" | "secondary" | "outline" | "ghost"} variant
  * @param {"sm" | "md" | "lg" } size
  * @param {boolean} disabled
- * @param {import("react").ButtonHTMLAttributes<HTMLButtonElement}props
+ * @param {import("react").ButtonHTMLAttributes<HTMLButtonElement>} props
  */
 
 const Button = ({variant, size, disabled=false, className, ...props}) => {
